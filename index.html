@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pradeep food order site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Angkor&family=Bungee+Spice&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Dosis:wght@200..800&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Ojuju:wght@200..800&family=Patrick+Hand&family=Rajdhani:wght@300;400;500;600;700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="nav">
+        <h1 class="why1">pradeep food order</h1>
+        <h3 class="why2">pradeep food order</h3>
+    </div>
+
+    <div class="container"> 
+        <div class="hotels"> 
+<h2 style="  font-family: 'Space Grotesk', sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;">Biriyani</h2>
+<h4 style="color: rgb(207, 255, 232); font-family: 'Josefin Sans', sans-serif;
+font-optical-sizing: auto;
+font-weight: 500;
+font-style: normal;">A2B</h4>
+<p style="  font-family: 'Ojuju', sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: normal;letter-spacing: 1px;">Biryani: a symphony of taste and aroma, layered with fragrant rice, succulent meats, and aromatic spices. A culinary masterpiece that satisfies the soul with every bite.</p>
+<button onclick="del(event)" style="color: rgb(187, 205, 195);">Delete</button> 
+  </div> 
+</div>
+
+
+<div class="popup-overlay"></div>
+<div class="popup-box">
+<h2>Add food</h2>
+<form>
+    <input type="text" placeholder="Choose food" id="choose-input">
+    <input type="text" placeholder="Hotel name" id="hotel-input">
+    <textarea type="text" placeholder="Description" id="description-input"></textarea>
+    <button id="add-food">Add</button>
+    <button id="cancel-popup">Cancel</button>
+</form>
+</div>
+<button class="plusbtn" id="addbtn">+</button>
+<script src="/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+/* @import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap') */
+
+/* body{
+    font-family:sans-serif;
+} */
+
+
+
+  
+.nav{
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(#141e30, #243b55);
+    padding: 10px;
+}
+  
+.container{
+    padding: 10px;
+
+}
+body{
+    background-color: rgb(206, 223, 238);
+}
+
+p{
+    color: rgb(154, 234, 240);
+}
+
+.hotels{
+    padding: 15px;
+    width: 25%;
+    background-color: rgb(14, 95, 130);
+    border-radius: 10px;
+    color: azure;
+    margin: 30px;
+    display: inline-block;
+    vertical-align: top;
+}
+ h2 {
+    color: rgb(239, 239, 239);
+}
+h4{
+    color: rgb(0, 0, 0);
+}
+
+.hotels button{
+    background-color: rgb(181, 39, 14);
+    color: black;
+    border-radius: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: none;
+    margin-top: 10px;
+   
+}
+.plusbtn{
+background-color: rgb(225, 69, 21);
+color: rgb(255, 255, 255);
+padding: 20px;
+border: none;
+border-radius: 50%;
+width: 70px;
+position: fixed;
+font-size: 2rem;
+right: 30px;
+bottom: 30px;
+}
+.popup-overlay{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color: cadetblue;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 28%;
+    z-index: 2;
+    display: none;
+    
+}
+.popup-box input{
+    background: transparent;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+     border: none;
+    margin: 6px;
+    border-bottom:2px solid black ;
+}
+.popup-box textarea{
+    background: transparent;
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    margin: 5px;
+    border:2px solid black ;
+}
+
+.popup-box input::placeholder{
+    color: black;
+}
+.popup-box textarea::placeholder{
+    color: black;
+}
+
+.popup-box button{
+    background-color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: aliceblue;
+    margin: 5px;
+}
+.popup-box input:focus{
+ outline: none;
+}
+.popup-box textarea:focus{
+    outline: none;
+   }
+   .why2{
+    display: none;
+   }
+   
+   @media only screen and ( max-width: 426px){
+    body{
+        background-color: rgb(241, 211, 211); 
+    }
+    .why1{
+        display: none;
+       }
+       .why2{
+        display: block;
+        padding: 10px;
+       }
+       .hotels{
+        width: 220px;
+       }
+       
+       .popup-box{
+        background-color: cadetblue;
+        width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+        position: absolute;
+        top: 27%;
+        left: 4%;
+        z-index: 2;
+        display: none;
+        
+    }
+   }
+   @media only screen and (min-width:426px) and ( max-width: 600px){
+
+    .hotels{
+        width: 330px;
+       }
+body{
+    background-color: aqua;
+}
+   }
+
+   @media only screen and (min-width:600px) and ( max-width: 767px){
+
+    .hotels{
+        width: 400px;
+       }
+body{
+    background-color: #78defa;
+}
+   }
+   @media only screen and (min-width:768px) and ( max-width: 900px){
+
+    .hotels{
+        width: 270px;
+       }
+body{
+    background-color: #b6c6e0;
+}
+   }
+
+
+ 
